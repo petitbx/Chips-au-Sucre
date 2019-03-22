@@ -63,6 +63,7 @@
 @media screen and (max-width: 576px) { 
     #blockpage {
       margin: none;
+      align-content: center;
     }
    }
   /* smartphone */
@@ -70,7 +71,7 @@
     #blockpage {
         margin-left: 3%;
       margin-right: 3%;
-      
+      align-content: center;
     }
    }
   
@@ -160,7 +161,7 @@ a{
     background-color: black;
 }
 
-li{
+.listefooter{
     list-style: none;
     font-size: 80%;
     color: grey;

@@ -1,0 +1,62 @@
+body{
+    margin: 2%;
+}
+
+.intro{
+    text-align: center;
+}
+/* Social Bar */ 
+.socialBar{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}.ico{
+    width: 60%;
+}
+/* End of Social Bar */
+
+.shadow{
+    width: 100%;
+    height: auto;
+}
+
+.flex{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/* Portable */
+@media screen and (max-width: 576px) { 
+    #blockpage {
+      margin: none;
+      align-content: center;
+    }
+   }
+  /* smartphone */
+  @media screen and (min-width: 577px) and (max-width: 768px) { 
+    #blockpage {
+        margin-left: 3%;
+      margin-right: 3%;
+      align-content: center;
+    }
+   }
+  
+  /* Ordi */
+  @media screen and (min-width: 769px) and (max-width: 992px) { 
+    #blockpage {
+        margin-left: 20%;
+    margin-right: 20%;
+    justify-content: center;
+    }
+   }
+  
+  /* grand écran */
+  @media screen and (min-width: 993px){ 
+    #blockpage {
+        margin-left: 20%;
+        margin-right: 20%;
+        justify-content: center;
+    }
+}
