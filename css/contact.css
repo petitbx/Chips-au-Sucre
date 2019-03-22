@@ -1,0 +1,183 @@
+/* HEADER IMAGE + NAV + CARROUSEL */
+
+/* Portable */
+@media screen and (max-width: 576px) { 
+    #blockpage {
+      margin: none;
+    }
+
+   }
+  /* smartphone */
+  @media screen and (min-width: 577px) and (max-width: 768px) { 
+    #blockpage {
+        margin-left: 3%;
+      margin-right: 3%;
+      
+    }
+   }
+  
+  /* Ordi */
+  @media screen and (min-width: 769px) and (max-width: 992px) { 
+    #blockpage {
+        margin-left: 20%;
+    margin-right: 20%;
+    justify-content: center;
+    }
+   }
+  
+  /* grand écran */
+  @media screen and (min-width: 993px){ 
+    #blockpage {
+        margin-left: 20%;
+        margin-right: 20%;
+        justify-content: center;
+    }
+}
+.imgtitre
+{
+    margin-left: 20%;
+}
+.nav-tabs
+{
+    font-size: 13px;
+}
+.ico{
+    height: 20px;
+    margin-left: 5px;
+}
+
+body{
+    background-image: url("img/fond.png");
+}
+
+#blockpage
+{
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: center;
+}
+#menu{
+
+    justify-content: center;
+
+}
+
+.nav-tabs
+{
+    font-size: 13px;
+}
+
+.nav-link
+{
+    color: black;
+}
+
+/* Social media bar */
+
+.icon-bar
+{
+    margin-left: 50%;
+    margin-top: 2%;
+}  
+
+.icon-bar1 a{
+    padding: 10px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 10px;
+}
+
+.icon-bar a {
+    
+    
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 10px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.google {
+    background: #dd4b39;
+    color: white;
+}
+
+.linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.card-img-top{
+
+    margin-left: 1px;
+    margin-top: 2px;
+}
+
+.blockquote{
+    font-size: 15px;
+}
+.disq{
+    margin-bottom: 10px;
+}
+#carte1{
+    font-size: 10px;
+    margin-top: -10px;
+}
+
+#carte2{
+    margin-top: 15px;
+}
+#carte3{
+     margin-top: -20px;
+     margin-bottom: 30px;
+}
+#social{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#participez{
+    margin-top: 20px;
+}
+.img1{
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+#pic{
+    width: 30px;
+    height: 30px;
+}
+h2{
+    color: orangered;
+}
+.sst{
+    color: orange;
+}
+.id{
+    font-size: 10px;
+    color: grey;
+}
+
+#navbar{
+    position: sticky;
+    text-align: center;
+}
